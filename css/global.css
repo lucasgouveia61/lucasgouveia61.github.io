@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  font-family: "Faira Sans", Arial, sans-serif;
+  color: #141414;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+}
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  word-break: break-all;
+  text-transform: uppercase ;
+  max-width: 5ch ;
+}

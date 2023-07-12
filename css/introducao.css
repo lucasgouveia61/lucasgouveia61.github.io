@@ -1,0 +1,18 @@
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 100px;
+  align-items: center;
+  font-size: 2.5rem;
+}
+span {
+  color: #5562FF;
+}
+ .introducao , h1 {
+  font-size: 3.9rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+ }
