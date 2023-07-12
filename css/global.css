@@ -1,7 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@600&display=swap');
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins,Arial, Helvetica, sans-serif;
+}
 body {
-  margin: 0px;
-  font-family: "Faira Sans", Arial, sans-serif;
-  color: #141414;
+  background: #f3f5f8;
 }
 
 ul {

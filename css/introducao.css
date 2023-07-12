@@ -1,18 +1,58 @@
+
+.cols {
+  width: 50%;
+}
+.topline {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  font-size: 40px;
+  letter-spacing: 5px;
+  color: #3d535f ;
+  letter-spacing: 4px;
+}
+
+.topline::after {
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: 45px;
+  bottom: 10px;
+  background-color: #7f00ff;
+}
+
+h1 {
+  display: block;
+  font-size: 7em;
+  font-weight: 900;
+  color: #3d535f;
+}
+.multiText {
+  color: #7f00ff;
+  text-transform: captalize;
+}
+
 .introducao {
-  max-width: 1200px;
-  padding: 40px 20px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  gap: 100px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
   align-items: center;
-  font-size: 2.5rem;
+  padding:  0 10%;
+
 }
-span {
-  color: #5562FF;
+
+p {
+  display: block;
+  width: 90%;
+  font-size: 1.2em;
+  color: #3d535f;
 }
- .introducao , h1 {
-  font-size: 3.9rem;
-  line-height: 1.125;
-  margin-bottom: 30px;
- }
+.btns {
+  width: 100%;
+  position: relative;
+  left: 150px;
+}
+button {
+  outline: none ;
+}
